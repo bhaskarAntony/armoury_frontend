@@ -1,0 +1,28 @@
+.search{
+    flex: 2 !important;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: var(--shaded-blue);
+    padding: 10px;
+    border-radius: 100px;
+    border: 0.6px solid #555168;
+}
+
+.search input{
+    flex: 1 !important;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.dashboard-card{
+    background-color: var(--dark-blue);
+    min-height: 200px;
+    border-radius: 20px;
+}
+header{
+    backdrop-filter: blur(90px);
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}

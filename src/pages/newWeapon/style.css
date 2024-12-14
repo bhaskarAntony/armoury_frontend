@@ -1,0 +1,21 @@
+
+.form-control, .form-select option{
+    margin-bottom: 30px !important;
+    background-color: var(--hover-blue) !important;
+    border: none !important;
+    padding: 10px !important;
+    color: #fff !important;
+}
+.form-label{
+    color: var(--pink);
+}
+.form-control:focus{
+    background-color: var(--hover-blue) !important;
+}
+.new-weapon{
+    background-color: var(--dark-blue) !important;
+    border-radius: 20px;
+}
+.form-control::placeholder{
+    color: #9e9898 !important;
+}

@@ -1,0 +1,38 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--dark-blue);
+    color: #fff;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.officers{
+    min-height: 100vh;
+    /* background: linear-gradient(25deg, var(--blur-color),var(--shaded-dark)); */
+}
+table tr td, table tr th{
+    padding: 15px;
+    border-radius: 10px;
+}
+.profile{
+    width: 60px;
+}
+td{
+    font-size: 1.2rem;
+    border-radius: 0px !important;
+}
+tr{
+    border-radius: 0px !important;
+}
+th{
+    background-color: #ed05883e;
+    border-radius: 0px !important;
+}
+td .danger{
+    background-color: rgba(255, 0, 76, 0.226);
+    color: rgb(255, 0, 55);
+}
+td .success{
+    background-color: rgba(0, 255, 85, 0.075);
+    color: rgb(8, 94, 45);
+}

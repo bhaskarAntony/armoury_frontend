@@ -1,0 +1,118 @@
+:root{
+  --dark-blue:#080d2a;
+  --shaded-blue:#0f1535;
+  --purpul:#9320bc;
+  --pink:#ed058a;
+  --shaded-dark:#121128;
+  --hover-blue:#1b213f;
+  --blur-color:#2f39a7;
+}
+.sidebar{
+  min-height: 100vh;
+  background-color: var(--shaded-blue);
+  padding: 10px;
+  max-height: 100vh;
+  overflow: auto;
+}
+/* Smooth scrolling */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent; /* Transparent track */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); /* Light gray, semi-transparent thumb */
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4); /* Slightly darker on hover */
+}
+
+/* Cross-browser styling */
+.sidebar {
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; /* Thumb and track colors */
+  scrollbar-width: thin; /* Narrow scrollbar */
+}
+
+/* Optional: For smooth scrolling experience */
+.sidebar {
+  scroll-behavior: smooth;
+}
+.app{
+  background-color: var(--dark-blue);
+}
+.logo{
+  width: 100px;
+}
+.sidebar ul{
+  padding: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.sidebar ul li{
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background-color: #1b213f97;
+  border-radius: 5px;
+}
+.sidebar ul li a{
+  color: #dedede;
+  text-decoration: none;
+  font-size: 1.1rem;
+ 
+}
+.sidebar ul li:hover a{
+  color: var(--dark-blue);
+}
+.sidebar ul li:hover{
+  background-color: #fff;
+}
+.main{
+    background: linear-gradient(25deg, var(--blur-color), var(--shaded-dark), var(--shaded-dark));
+}
+.main-content{
+  backdrop-filter: blur(100px);
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.main-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.main-content::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.main-content::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); 
+  border-radius: 10px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4); 
+}
+
+.main-content {
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent; 
+  scrollbar-width: thin; 
+}
+
+.main-content {
+  scroll-behavior: smooth;
+}
+
+.g-btn{
+  padding: 8px 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(45deg, var(--pink), var(--purpul));
+  border-radius: 100px;
+}
